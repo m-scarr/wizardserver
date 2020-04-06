@@ -1,7 +1,7 @@
 var args = require('minimist')(process.argv.slice(2));
 var extend = require('extend');
 
-var environment = args.env || "test";
+var environment = args.env || "production";
 
 var common_conf = {
     name: "Wizard Duel",
@@ -15,7 +15,7 @@ var common_conf = {
 }
 
 var conf = {
-    test: {
+    production: {
         ip: args.ip || "0.0.0.0",
         port: args.port || 8080,
         database: "mongodb://DB_user:db9461@ds263847.mlab.com:63847/heroku_j8vj4dfh"
