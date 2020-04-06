@@ -9,7 +9,7 @@ var common_conf = {
     max_players: 2,
     environment,
     data_paths: {
-        maps: __dirname + "\\Game Data\\" + "Maps\\"
+        maps: __dirname + "/Game Data/Maps"
     },
     starting_zone: "rm_duel_test",
 }
