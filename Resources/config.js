@@ -22,6 +22,6 @@ var conf = {
     },
 };
 
-extend(false, conf.test, common_conf);
+extend(false, conf.production, common_conf);
 
 module.export = config = conf[environment];
