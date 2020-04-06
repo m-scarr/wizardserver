@@ -18,7 +18,7 @@ var conf = {
     test: {
         ip: args.ip || "0.0.0.0",
         port: args.port || 8080,
-        database: "mongodb://localhost:27017/wizard_duel"
+        database: "mongodb://DB_user:db9461@ds229826.mlab.com:29826/heroku_nz60fhrn"
     },
 };
 
