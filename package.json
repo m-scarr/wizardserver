@@ -1,0 +1,21 @@
+{
+  "name": "wizard_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binary-parser": "^1.5.0",
+    "extend": "^3.0.2",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.7",
+    "net": "^1.0.2",
+    "performance-now": "^2.1.0",
+    "underscore": "^1.10.2"
+  }
+}
